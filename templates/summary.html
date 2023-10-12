@@ -1,0 +1,12 @@
+{% extends 'base.html'%}
+
+{% block title%}summary{% endblock %}
+
+{% block body%}
+
+<h1>Summary</h1>
+<p>{{summary}}</p>
+<form action="/back" method="post">
+    <button type="submit">GO BACK</button>
+</form>
+{% endblock %}
